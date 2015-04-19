@@ -55,7 +55,9 @@ Output:
 8 8
 
 Explain:
-64bit電腦存指標的大小固定為8bytes
+因為pietty屬於UNIX系統 而UNIX存指標的大小為8bytes
+若是在我的電腦跑 他跑出來結果是4bytes
+
 而char 是1bytes
 int和float 都是4bytes
 double則是8bytes
